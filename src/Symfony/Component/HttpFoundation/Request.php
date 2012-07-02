@@ -464,7 +464,7 @@ class Request
     }
 
     /**
-     * Normalize a query string.
+     * Normalizes a query string.
      *
      * It builds a normalized query string, where keys/value pairs are alphabetized
      * and have consistent escaping.
@@ -472,8 +472,6 @@ class Request
      * @param string $qs Query string
      *
      * @return string|null A normalized query string for the Request
-     *
-     * @api
      */
     static public function normalizeQueryString($qs = null)
     {
